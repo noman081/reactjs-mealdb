@@ -1,0 +1,19 @@
+.meals{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.meal{
+    border: 3px solid palevioletred;
+    padding: 15px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 10px;
+}
+.meal:hover{
+    border: 3px solid tomato;
+    background-color: goldenrod;
+    color: azure;
+    cursor: pointer;
+}
